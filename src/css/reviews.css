@@ -59,6 +59,10 @@
 }
 
 @media screen and (min-width: 768px) {
+      .review {
+            padding-top: 80px;
+      }
+      
       .reviews-title {
             font-weight: 600;
             font-size: 48px;
@@ -91,6 +95,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+      .review {
+            padding-top: 100px;
+      }
+
       .reviews-item:nth-child(-n+3) {
             display: block;
       }
