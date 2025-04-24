@@ -1,13 +1,12 @@
+.contact-us {
+  margin-top: 60px;
+}
 .container-name {
   font-weight: 600;
   font-size: 48px;
   line-height: 0.92;
   letter-spacing: -0.02em;
   margin-bottom: 24px;
-}
-
-.container-input {
-    margin-bottom: 60px;
 }
 
 .container-form {
@@ -96,14 +95,17 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container-name {
+  
+    .contact-us {
+        margin-top: 80px;
+      }
+
+    .container-name {
     font-size: 48px;
     margin-bottom: 40px;
   }
 
-  .container-input {
-margin-bottom: 80px;
-  }
+
 
   .container-form {
     padding: 50px 122px;
@@ -144,10 +146,13 @@ margin-bottom: 80px;
 }
 
 @media screen and (min-width: 1280px) {
-  .container-input {
+    .contact-us {
+        margin-top: 100px;
+      }
+
+    .container-input {
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
   }
 
   .container-form {
