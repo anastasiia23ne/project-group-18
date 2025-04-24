@@ -12,6 +12,11 @@
     padding: 40px 28px 28px 28px;
     border-radius: 30px;
 }
+@media screen and (min-width: 768px){
+    .footer-box{
+        padding: 40px;
+    }
+}
 @media only screen and (min-width: 1280px) {
     .footer-box{
         position: relative;
@@ -38,13 +43,12 @@
     .logo-social-tel{
         display: flex;
         justify-content: space-between;
-        margin-bottom: 86px;
         align-items: start;
     }
 }
 @media only screen and (min-width: 1280px) {
     .logo-social-tel{
-        margin-bottom: 142px;
+        
     }
 }
 /* ЛОГО */
@@ -55,10 +59,6 @@
 .footer-social-list {
     display: flex;
     gap: 10px;
-    margin-bottom: 20px;
-}
-.social-item {
-    
 }
 .social-link {
     border: 1px solid rgba(251, 251, 251, 0.1);
@@ -70,13 +70,15 @@
 }
 .icon {
     fill: #fbfbfb;
+    opacity: 0.8;
     width: 18px;
     height: 18px;
 }
+.social-link:hover, .social-link:focus{
+    .icon{
+        opacity: 1;
+}}
 @media screen and (min-width: 768px){
-    .footer-social-list{
-        margin-bottom: 0;
-    }
     .icon{
         width: 20px;
         height: 20px;
@@ -100,8 +102,8 @@
     border: 1px solid rgba(251, 251, 251, 0.2);
     border-radius: 16px;
     padding: 14px 20px;
-    margin-bottom: 40px;
-    width: 152px;
+    margin-top: 20px;
+    display: inline-block;
 }
 @media screen and (min-width: 768px){
     .tel{
@@ -109,8 +111,12 @@
         line-height: 1.29;
     }
     .tel-box{
-        margin-bottom: 0;
-        width: 160px;
+        padding: 15px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .tel-box{
+        margin-top: 0;
     }
 }
 
@@ -127,14 +133,15 @@
     text-align: center;
     color: #fbfbfb;
     max-width: 279px;
-    margin: 0 auto 92px auto;
+    margin: 40px auto 0 auto;
 }
 @media screen and (min-width: 768px){
     .footer-text{
         max-width: 524px;
-        margin: 0 auto 100px auto;
+        margin: 86px auto 0 auto;
         font-size: 28px;
         line-height: 1.14;
+
     }
 }
 @media only screen and (min-width: 1280px) {
@@ -143,9 +150,9 @@
         top: 40px;
         left: 50%; 
         transform: translateX(-50%);
+        margin: 0;
     }
 }
-
 
 /* ТЕКСТ */
 
@@ -160,6 +167,7 @@
     gap: 16px;
     flex-wrap: wrap;
     max-width: 147px;
+    row-gap: 8px;
 }
 .nav-link {
     font-weight: 500;
@@ -181,7 +189,16 @@
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
-    margin-bottom: 24px;
+    position: relative;
+    margin-top: 92px;
+}
+.nav-address-box::after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    bottom: -24px;
+    background-color: rgba(251, 251, 251, 0.1);;
+    position: absolute;
 }
 @media screen and (min-width: 768px){
     .footer-address{
@@ -200,11 +217,20 @@
         font-size: 14px;
         line-height: 1.29;
     }
+    .nav-address-box{
+        margin-top: 100px;
+    }
+    .nav-address-box::after{
+        bottom: -28px;
+    }
 }
 @media only screen and (min-width: 1280px) {
     .nav-list{
         gap: 40px;
         max-width: 505px;
+    }
+    .nav-address-box{
+        margin-top: 142px;
     }
 }
 
@@ -215,7 +241,7 @@
 /* КОПІРАЙТ І УМОВИ ВИКОРИСТАННЯ */
 
 .copyright-stuff-box{
-    margin-top: 24px;
+    margin-top: 48px;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -242,6 +268,9 @@
     color: rgba(251, 251, 251, 0.5);
 }
 @media screen and (min-width: 768px){
+    .copyright-stuff-box{
+        margin-top: 56px;
+    }
     .footer-copyright{
         font-size: 14px;
         line-height: 1.29;
