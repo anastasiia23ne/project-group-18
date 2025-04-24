@@ -166,6 +166,11 @@
 
 }
 
+@media (min-resolution: 192dpi) {
+    .menu {
+        background-image: url(../img/menu/menu-bg-tab-2x-min.jpg);
+    }
+}
 
 @media only screen and (min-width: 1200px) {
     .menu-overlay {
