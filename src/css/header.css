@@ -22,7 +22,7 @@
   color: #0c0c0c;
   cursor: pointer;
 
-  padding: 20px 0;
+  padding: 28px 0;
 }
 
 .head-list {
@@ -38,7 +38,7 @@
   background-color: transparent;
   border: none;
   margin-left: auto;
-  padding: 20px 0;
+  padding: 28px 0;
 }
 .menu-btn-icon {
   width: 34px;
@@ -49,6 +49,10 @@
 @media only screen and (min-width: 768px) {
   .logo {
     font-size: 20px;
+    padding: 34px 0;
+  }
+  .menu-btn {
+    padding: 34px 0;
   }
 }
 
@@ -60,6 +64,7 @@
 
   .logo {
     margin-right: 203px;
+    padding: 32px 0;
   }
 
   .head-list {
@@ -79,7 +84,7 @@
     text-align: center;
     color: #0c0c0c;
 
-    padding: 20px 0;
+    padding: 32px 0;
     display: inline-block;
   }
 
