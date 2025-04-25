@@ -33,21 +33,15 @@
     
     width: 200px;
     height: 100%;
-    
-    background-color: #FCFCFC;
-    background-image: url(/img/menu/menu-bg-mob-1x-min.jpg);
+
+    background-image: linear-gradient(rgba(12, 12, 12, 0.92)), url(/img/menu/menu-bg-mob.png);
+    background-color: #0c0c0c;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
-            0px 1px 3px rgba(0, 0, 0, 0.12),
-            0px 2px 1px rgba(0, 0, 0, 0.2);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    height: 100hv;
 
-@media (min-resolution: 192dpi) {
-    .menu {
-        background-image: url(../img/menu/menu-bg-mob-2x-min.jpg);
-    }
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-close-btn {
@@ -66,12 +60,12 @@
     stroke: #fbfbfb;
 }
 
-.menu-close-svg path{
+.menu-close-svg{
     transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-close-btn:hover .menu-close-svg path,
-.menu-close-btn:focus .menu-close-svg path{
+.menu-close-btn:hover .menu-close-svg,
+.menu-close-btn:focus .menu-close-svg {
     stroke: #3350E9;
 }
 
@@ -98,7 +92,7 @@
     font-size: 14px;
     font-weight: 500;
     color: white;
-    line-height: 18px;
+    line-height: 1.29;
     text-align: center;
     align-items: center;
 }
@@ -127,14 +121,14 @@
     display: flex;
     gap: 10px;
 
-    margin: auto;
-    margin-bottom: 40px;
+    margin: 0 auto 40px;
     padding-top: 34px;
 }
 
 .menu-social-svg{
-    fill: rgba(251, 251, 251, 0.8);
-    transition: fill 0.2s ease, scale 0.2s ease;
+    fill: #fbfbfb;
+    opacity: 0.8;
+    transition: fill 0.2s ease, scale 0.2s ease, opacity 0.2s ease;
 }
 
 .menu-social-point{
@@ -148,14 +142,13 @@
 }
 
 .menu-social-point:hover .menu-social-svg{
-    fill: white;
     scale: 1.2;
+    opacity: 1;
 }
 
 @media only screen and (min-width: 768px) {
     .menu {
         width: 330px;
-        background-image: url(/img/menu/menu-bg-tab-1x-min.jpg);
     }
 
     .menu-close-btn{
@@ -167,12 +160,30 @@
         gap: 32px;
     }
 
-}
-
-@media (min-resolution: 192dpi) {
-    .menu {
-        background-image: url(../img/menu/menu-bg-tab-2x-min.jpg);
+    .menu-social-point{
+        width: 36px;
+        height: 36px;
     }
+
+    .menu-social-svg{
+        width: 20px;
+        height: 20px;
+    }
+
+    .menu-close-btn{
+        width: 40px;
+        height: 40px;
+    }
+
+    .menu-close-svg{
+        width: 40px;
+        height: 40px;
+    }
+
+    .menu-social-links{
+        margin-bottom: 50px;
+    }
+
 }
 
 @media only screen and (min-width: 1200px) {
