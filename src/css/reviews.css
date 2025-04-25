@@ -5,19 +5,17 @@
 
 .reviews-title {
       font-weight: 600;
-      font-size: 48px;
-      line-height: 44px;
+      font-size: 32px;
+      line-height: 1;
       letter-spacing: -0.02em;
       color: #0c0c0c;
-      margin-bottom: 40px;
+      margin-bottom: 24px;
 }
 
 .reviews-list {
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      gap: 8px;
-
 }
 
 .reviews-item {
@@ -69,13 +67,14 @@
             margin-bottom: 40px;
       }
 
-      .revievs-list {
-            display: flex;
+      .reviews-list {
             gap: 16px;
       }
 
       .reviews-item {
             flex-basis: calc((100% - 16px) / 2);
+            width: 344px;
+            height: 272px;
       }
 
       .reviews-item:nth-child(-n+2) {
@@ -84,7 +83,7 @@
 
       .review-name {
             font-size: 18px;
-            line-height: 1.1;
+            line-height: 0.92;
       }
 
       .review-item-text {
@@ -103,13 +102,14 @@
             display: block;
       }
 
-      .revievs-list {
+      .reviews-list {
             flex-direction: row;
-            display: flex;
             gap: 20px;
       }
 
       .reviews-item {
             flex-basis: calc((100% - 20px) / 3);
+            width: 370px;
+            height: 272px;
       }
 }
