@@ -49,7 +49,7 @@
     color: #fbfbfb;
     border: 1px solid rgba(251, 251, 251, 0.15);
     border-radius: 16px;
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 160px;
@@ -94,6 +94,7 @@
         padding: 83px 80px;
         margin-top: 100px;
         display: flex;
+        align-items: baseline;
         justify-content: center;
         background-image: url(/img/advertisement/advertisement-bcgr-desk.png);
     }
