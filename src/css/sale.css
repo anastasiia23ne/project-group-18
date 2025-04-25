@@ -1,37 +1,6 @@
-
-.container-sale {
-    min-width: 320px;
-    max-width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0 auto;
-}
-@media screen and (min-width: 768px) {
-       
-    .container-sale  {
-max-width: 768px;
-padding-left: 32px;
-    padding-right: 32px;
-
-    }
-    
-}
-@media screen and (min-width: 1280px) {
-        
-    .container-sale  {
-max-width: 1280px;
-padding-right: 65px;
-padding-left:  65px; 
-
-    }
-    
-}
-
 .sale {
-    padding: 60px 0;
-    background-color: #fbfbfb;
+    padding-top: 60px;
 }
-
 .sale-title {
     font-weight: 600;
 font-size: 32px;
@@ -41,233 +10,219 @@ color: #0c0c0c;
 font-family: "Gilroy", sans-serif;
 margin-bottom: 24px;
 }
-.sale-item {
-border: 1px solid rgba(12, 12, 12, 0.05);
-border-radius: 16px;
-width: 80px;
-height: 80px;
-background-color: #f3f3f3;
-
-}
-.sale-item {
-    width: calc((100% - 5px) / 4);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.sale-box-image {
+    margin-bottom: 20px;
 }
 .sale-list {
     display: flex;
     gap: 5px;
     margin-bottom: 20px;
 }
-.sale-img-item {
-    width: 52px;
-height: 54px;
-
+.sale-item {
+    padding: 13px 14px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+border-radius: 16px;
+width: 80px;
+height: 80px;
+background-color: #f3f3f3;
+width: 100%;
 }
 .sale-main-img {
-border: 1px solid rgba(12, 12, 12, 0.05);
+    border: 1px solid rgba(12, 12, 12, 0.05);
 border-radius: 30px;
-
+width: 335px;
 height: 385px;
 background-color: #f3f3f3;
+padding: 50px;
 display: flex;
 justify-content: center;
 align-items: center;
-margin: 0 auto;
-margin-bottom: 20px;
 }
-.sale-main-img-item {
-    width: 235px;
-height: 285px;
-}
-.sale-info {
-border-radius: 30px;
 
-height: 561px;
-background-color: #3350e9;
-margin: 0 auto;
-padding: 48px 28px;
+.sale-info {
+    border-radius: 30px;
+    background-color: #3350e9;
+    padding: 48px 28px;
 }
+
 .info-title {
+    max-width: 279px;
     font-weight: 600;
-    font-family: "Gilroy", sans-serif;
 font-size: 24px;
-line-height: 1.16;
+line-height: 1.2;
 letter-spacing: -0.02em;
 color: #fbfbfb;
+font-family: "Gilroy", sans-serif;
 margin-bottom: 10px;
 }
-.container-info-title {
-    max-width: 279px;
-height: 84px;
-margin-bottom: 20px;
-}
 .sale-product-tag {
-    font-family: "Gilroy", sans-serif;
     font-weight: 400;
 font-size: 14px;
-line-height: 1.2;
+line-height: 1.3;
 letter-spacing: -0.02em;
 color: rgba(251, 251, 251, 0.5);
 margin-bottom: 20px;
 }
 
-.sale-price {
-    font-family: "Gilroy", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.sale-price-old {
     border-radius: 8px;
-width: 68px;
-height: 32px;
-background-color: rgba(251, 251, 251, 0.1);
-font-weight: 600;
+    max-width: 68px;
+    background-color: rgba(251, 251, 251, 0.1);
+    font-weight: 600;
 font-size: 16px;
 line-height: 1.25;
 letter-spacing: -0.02em;
 color: #fbfbfb;
+font-family: "Gilroy", sans-serif;
+padding: 8px 12px;
+margin-right: 9px;
 }
-.container-sale-price {
-    display: flex;
-    align-items: center;
-    gap: 9px;
-    margin-bottom: 28px;
-}
-.sale-price-old {
-    font-family: "Gilroy", sans-serif;
+.sale-price-discont {
     font-weight: 400;
 font-size: 12px;
-line-height: 1.16;
+line-height: 1.2;
 letter-spacing: -0.02em;
 text-decoration: line-through;
 color: rgba(251, 251, 251, 0.5);
+font-family: "Gilroy", sans-serif;
 }
-.sale-description {
-    font-family: "Gilroy", sans-serif;
-    font-weight: 500;
-font-size: 14px;
-line-height: 1.28;
-letter-spacing: -0.02em;
-color: rgba(251, 251, 251, 0.7);
-margin-bottom: 28px;
+.sale-price {
+    margin-bottom: 28px;
 }
 
+.sale-description {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.3;
+letter-spacing: -0.02em;
+color: rgba(251, 251, 251, 0.7);
+font-family: "Gilroy", sans-serif;
+max-width: 279px;
+margin-bottom: 28px;
+}
 .sale-info-list {
     display: flex;
-    gap: 8px;
     flex-wrap: wrap;
-   
+    gap: 8px;
+
 }
 .sale-info-item {
- 
- padding: 8px 12px;
- border: 1px solid rgba(251, 251, 251, 0.2);
+    border: 1px solid rgba(251, 251, 251, 0.2);
 border-radius: 8px;
-white-space: nowrap;
-background-color: transparent;
+padding: 8px 12px;
 font-weight: 500;
 font-size: 12px;
 line-height: 1.33;
 color: #fbfbfb;
-}
-.sale-info-container {
-    max-width: 279px;
-}
-.sale-info-list li:nth-child(1) {
-    max-width: 128px;
- }
- .sale-info-list li:nth-child(2) {
-    max-width: 123px;
- }
- .sale-info-list li:nth-child(3) {
-    max-width: 64px;
- }
- .sale-info-list li:nth-child(4) {
-    max-width: 58px;
- }
- .sale-info-list li:nth-child(5) {
-    max-width: 94px;
- }
- .sale-info-list li:nth-child(6) {
-    max-width: 85px;
- }
-
-
-
-
-
-
-
-
-
-
- @media screen and (min-width: 768px) {
-       
-    .sale {
-        padding: 80px 0;
-        background-color: #fbfbfb;
-    }
-    .sale-img-container {
-    display: flex;
-    margin-bottom: 40px;
-   }
-   .sale-title {
-    font-weight: 600;
-font-size: 48px;
-line-height: 1;
-letter-spacing: -0.02em;
-color: #0c0c0c;
 font-family: "Gilroy", sans-serif;
-margin-bottom: 40px;
+
 }
-.sale-item {
-    border: 1px solid rgba(12, 12, 12, 0.05);
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .sale {
+        padding-top: 80px;
+    }
+    
+    .sale-title {
+    font-size: 48px;
+    line-height: 1;
+    }
+   
+    .sale-box-image {
+        margin-bottom: 40px;
+        display: flex;
+        gap: 20px;
+        
+    }
+    .sale-list {
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 0px;
+    }
+    
+    .sale-item {
+        padding: 16px 18px;
     border-radius: 20px;
     width: 132px;
     height: 132px;
-    background-color: #f3f3f3;
-    
-    }
-    .sale-list {
-        display: flex;
-        gap: 10px;
-        margin-bottom: 20px;
-        flex-direction: column;
-        margin-right: 20px;
-    }
-    .sale-img-item {
-        width: 96px;
-    height: 100px;
-    
     }
     .sale-main-img {
-        border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 50px;
+    width: 552px;
+    height: 558px;
+    padding: 80px 112px;
+    }
+    .sale-info {
         border-radius: 50px;
-        width: 100%;
-height: 558px;
-        background-color: #f3f3f3;
+        padding: 60px;
+    }
+    .info-title {
+        max-width: 436px;
+    font-size: 32px;
+    }
+
+    .sale-price-old { 
+    max-width: 78px;   
+    font-size: 20px;
+    line-height: 1.1;
+    }
+    .sale-price {
+        margin-bottom: 30px;
+    }
+    .sale-description {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 584px;
+    margin-bottom: 40px;
+    }
+    .sale-info-list {
+        
+        max-width: 398px;
+    
+    }
+    .sale-info-item {
+    font-size: 14px;
+    line-height: 1.33;
+    
+    }
+   }
+  
+
+
+
+
+
+  @media only screen and (min-width: 1280px) {
+    .sale {
+        padding-top: 100px;
+    }
+    .sale-box {
         display: flex;
-        justify-content: center;
-        align-items: center;
-       
-    
+    }
+    .sale-box-image {
+        margin-bottom: 0px;
+        margin-right: 40px;
+    }
+    .sale-main-img {
+        width: 428px;
+        
+        padding: 80px 50px;
         }
-        .sale-info {
-            border-radius: 50px;
-            
-            height: 518px;
-            background-color: #3350e9;
-            margin: 0 auto;
-            padding: 60px
+        .info-title {
+            max-width: 389px;
+        }
+        .sale-description {
+            max-width: 410px;
             }
-            .container-info-title {
-                margin-left: 60px;
-            }
-            
-
-    
-    
-}
-
-
+   
+  }
+  
