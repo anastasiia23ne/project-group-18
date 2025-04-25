@@ -123,8 +123,8 @@
     border-radius: 10px;
     padding: 8px;
     background-color: transparent;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1); */
   }
 
   .head-soc-icon {
@@ -134,6 +134,10 @@
   .head-soc-icon:hover,
   .head-soc-icon:focus {
     fill: #3350e9;
+  }
+
+  .head-soc-link:hover,
+  .head-soc-link:focus {
     border: 1px solid rgba(51, 80, 233, 0.1);
   }
 
