@@ -1,18 +1,32 @@
 .advertisement {
     width: 100%;
     background-color: #0c0c0c;
-    background-image: url(../img/advertisement/advertisement-bcgr-mob.png);
+    background-image: url(/img/advertisement/advertisement-bcgr-mob.png);
     padding: 60px 28px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 30px;
+    margin-top: 60px;
 }
 
 @media screen and (min-resolution: 2x) {
     .advertisement {
-    background-image: url(../img/advertisement/advertisement-bcgr-mob-2x.png);
+    background-image: url(/img/advertisement/advertisement-bcgr-mob-2x.png);
     }
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
 }
 
 .advertisement-text {
@@ -35,10 +49,12 @@
     color: #fbfbfb;
     border: 1px solid rgba(251, 251, 251, 0.15);
     border-radius: 16px;
+    display: block;
+    align-items: center;
+    justify-content: center;
     width: 160px;
     height: 48px;
     background-color: transparent;
-    padding: 15px 43px 15px 44px;
     margin-top: 28px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
             color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -53,6 +69,14 @@
 @media only screen and (min-width: 768px) {
     .advertisement {
     padding: 80px 64px;
+    margin-top: 80px;
+    background-image: url(/img/advertisement/advertisement-bcgr-tab.png);
+    }
+
+    @media screen and (min-resolution: 2x) {
+        .advertisement {
+            background-image: url(/img/advertisement/advertisement-bcgr-tab-2x.png);
+        }
     }
 
     .advertisement-text {
@@ -68,11 +92,25 @@
 @media only screen and (min-width: 1280px) {
     .advertisement {
         padding: 83px 80px;
+        margin-top: 100px;
         display: flex;
         justify-content: center;
+        background-image: url(/img/advertisement/advertisement-bcgr-desk.png);
+    }
+
+    @media screen and (min-resolution: 2x) {
+        .advertisement {
+            background-image: url(/img/advertisement/advertisement-bcgr-desk-2x.png);
+        }
+    }
+
+    .advertisement-text {
+        width: 690px;
+        margin-right: 140px;
     }
     
     .advertisement-btn {
         margin-top: 0;
+        padding: 0;
     }
 }
