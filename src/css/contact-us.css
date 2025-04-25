@@ -1,4 +1,4 @@
-.contact-us {
+.section-contact-us {
   margin-top: 60px;
   color: #0c0c0c;
 }
@@ -97,7 +97,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .contact-us {
+  .section-contact-us {
     margin-top: 80px;
   }
 
@@ -149,7 +149,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .contact-us {
+  .section-contact-us {
     margin-top: 100px;
   }
 
