@@ -106,7 +106,6 @@
             flex-direction: row;
             gap: 20px;
       }
-/* !revievs width+ */
       .reviews-item {
             flex-basis: calc((100% - 20px) / 3);
             width: 370px;
