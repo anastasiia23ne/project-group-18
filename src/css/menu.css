@@ -33,6 +33,7 @@
     
     width: 200px;
     height: 100%;
+    min-height: 550px;
 
     background-image: linear-gradient(rgba(12, 12, 12, 0.92)), url(/img/menu/menu-bg-mob.png);
     background-color: #0c0c0c;
@@ -74,7 +75,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding-top: 120px;
+
 }
 
 .menu-list{
@@ -149,6 +150,7 @@
 @media only screen and (min-width: 768px) {
     .menu {
         width: 330px;
+        min-height: 680px;
     }
 
     .menu-close-btn{
