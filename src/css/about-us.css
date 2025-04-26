@@ -1,28 +1,4 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-.container {
-    max-width: 320px;
-    padding: 0 16px;
-    margin: 0 auto;
-    justify-content: space-between;
-}
 
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
-}
-
-@media screen and (min-width: 1158px) {
-    .container {
-        max-width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-}
 
 .section-about-us {
     margin-top: 60px;
@@ -77,6 +53,7 @@
     border-radius: 30px;
     padding: 40px 20px;
     box-sizing: border-box;
+
 }
 
 @media screen and (min-width: 768px) {
