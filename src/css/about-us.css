@@ -1,0 +1,185 @@
+
+
+.section-about-us {
+    margin-top: 60px;
+}
+@media screen and (min-width: 768px) {
+    .section-about-us {
+            margin-top: 80px;
+        }
+    }
+@media screen and (min-width: 1280px) {
+    .section-about-us {
+            margin-top: 100px;
+        }
+}
+
+
+.about-us-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .about-us-wrapper {
+        gap: 40px;
+    }
+}
+
+
+@media (min-width: 1280px) {
+    .about-us-wrapper {
+            margin: 0 auto;
+            flex-direction: row;
+            justify-content: space-between;
+            /*align-items: flex-start;
+            gap: 40px;*/
+            /*box-sizing: border-box;*/
+            /*padding: 0;*/
+        }
+    }
+
+.about-us-first-div {
+    background-color: #f3f3f3;
+    width: 335px;
+    height: 446px;
+    border-radius: 30px;
+    padding: 40px 20px;
+    /*box-sizing: border-box;*/
+
+}
+
+@media screen and (min-width: 768px) {
+    .about-us-first-div {
+        width: 704px;
+        height: 512px;
+        padding: 80px 60px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .about-us-first-div {
+        width: 580px;
+        height: 532px;
+        /*box-sizing: border-box;*/
+    }
+}
+@media screen and (min-width: 1280px) {
+    .about-us-second-div .images-clock-about {
+            width: 100%;
+            max-width: 530px;
+            height: auto;
+            border-radius: 30px;
+            object-fit: cover;
+        }
+    }
+
+.title-about-us {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin: 0 0 28px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .title-about-us{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.91;
+    margin: 0 0 40px 0;
+    }
+}
+
+
+.text-about-us,
+.text-about-us-two {
+    text-align: left;
+}
+
+.text-about-us {
+
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+}
+.text-about-us-two {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .text-about-us {
+        font-size: 16px;
+        line-height: 1.25;
+}
+}
+
+
+.button-view-catalog {
+    display: flex;
+    width: 160px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3350e9;
+    border-radius: 16px;
+    font-size: 14px;
+    margin-top: 40px;
+    font-weight: 500;
+    line-height: 1.28;
+    text-align: center;
+    color: #fbfbfb;
+    border: none;
+}
+
+.button-view-catalog:hover,
+.button-view-catalog:focus {
+    background-color: #1f3cd4;
+}
+
+@media screen and (min-width: 768px) {
+    .button-view-catalog {
+    margin-top: 60px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+    .button-view-catalog {
+    margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .about-us-second-div {
+        display: block;
+    }
+}
+.images-clock-about {
+    display: block;
+    max-width: 335px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .images-clock-about {
+        max-width: 704px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .images-clock-about {
+        max-width: 530px;
+        height: auto;
+    }
+}
