@@ -1,0 +1,293 @@
+@media only screen and (min-width: 1280px) {
+    .footer-container {
+        padding: 0 32px;
+    }
+  }
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #0C0C0C;
+    padding: 40px 28px 28px 28px;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+@media screen and (min-width: 768px){
+    .footer-box{
+        padding: 40px;
+        margin-top: 80px;
+        margin-bottom: 32px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .footer-box{
+        position: relative;
+        margin-top: 100px;
+    }
+}
+
+/* ЛОГО */
+
+.logo-social-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.logo-footer {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
+@media screen and (min-width: 768px){
+    .logo-footer{
+        font-size: 20px;
+    }
+    .logo-social-tel{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .logo-social-tel{
+        
+    }
+}
+/* ЛОГО */
+
+
+/* ІКОНКИ */
+
+.footer-social-list {
+    display: flex;
+    gap: 10px;
+}
+.social-link {
+    border: 1px solid rgba(251, 251, 251, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon {
+    fill: #fbfbfb;
+    opacity: 0.8;
+    width: 18px;
+    height: 18px;
+}
+.social-link:hover, .social-link:focus{
+    .icon{
+        opacity: 1;
+}}
+@media screen and (min-width: 768px){
+    .icon{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+/* ІКОНКИ */
+
+
+/* ТЕЛЕФОН */
+.tel{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fbfbfb;
+}
+.tel-box{
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 16px;
+    padding: 14px 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+@media screen and (min-width: 768px){
+    .tel{
+        font-size: 14px;
+        line-height: 1.29;
+    }
+    .tel-box{
+        padding: 15px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .tel-box{
+        margin-top: 0;
+    }
+}
+
+/* ТЕЛЕФОН */
+
+
+/* ТЕКСТ */
+
+.footer-text{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    max-width: 279px;
+    margin: 40px auto 0 auto;
+}
+@media screen and (min-width: 768px){
+    .footer-text{
+        max-width: 524px;
+        margin: 86px auto 0 auto;
+        font-size: 28px;
+        line-height: 1.14;
+
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .footer-text{
+        position: absolute;
+        top: 40px;
+        left: 50%; 
+        transform: translateX(-50%);
+        margin: 0;
+    }
+}
+
+/* ТЕКСТ */
+
+
+/* НАВІГАЦІЯ З АДРЕСОЮ */
+
+.footer-nav {
+    display: flex;
+}
+.nav-list {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    max-width: 147px;
+    row-gap: 8px;
+}
+.nav-link {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    text-align: center;
+    color: #fbfbfb;
+}
+.footer-address {
+    width: 83px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #fbfbfb;
+    font-style: normal;
+}
+.nav-address-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    position: relative;
+    margin-top: 92px;
+}
+.nav-address-box::after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    bottom: -24px;
+    background-color: rgba(251, 251, 251, 0.1);;
+    position: absolute;
+}
+@media screen and (min-width: 768px){
+    .footer-address{
+        width: 162px;
+    }
+    .nav-list{
+        gap: 19px;
+        flex-wrap: nowrap;
+        max-width: 400px;
+    }
+    .nav-link{
+        font-size: 14px;
+        line-height: 1.29;
+    }
+    .footer-address{
+        font-size: 14px;
+        line-height: 1.29;
+    }
+    .nav-address-box{
+        margin-top: 100px;
+    }
+    .nav-address-box::after{
+        bottom: -28px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .nav-list{
+        gap: 40px;
+        max-width: 505px;
+    }
+    .nav-address-box{
+        margin-top: 142px;
+    }
+}
+
+
+/* НАВІГАЦІЯ З АДРЕСОЮ */
+
+
+/* КОПІРАЙТ І УМОВИ ВИКОРИСТАННЯ */
+
+.copyright-stuff-box{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.footer-copyright {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+    opacity: 0.9;
+}
+.footer-stuff {
+    display: flex;
+    justify-self: start;
+    gap: 20px;
+    text-align: right;
+}
+.stuff-link {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+}
+@media screen and (min-width: 768px){
+    .copyright-stuff-box{
+        margin-top: 56px;
+    }
+    .footer-copyright{
+        font-size: 14px;
+        line-height: 1.29;
+    }
+    .stuff-link{
+        font-size: 14px;
+        line-height: 1.29;
+    }
+    .copyright-stuff-box{
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+}
+/* КОПІРАЙТ І УМОВИ ВИКОРИСТАННЯ */
