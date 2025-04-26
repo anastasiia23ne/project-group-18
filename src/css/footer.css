@@ -11,15 +11,20 @@
     background-color: #0C0C0C;
     padding: 40px 28px 28px 28px;
     border-radius: 30px;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 @media screen and (min-width: 768px){
     .footer-box{
         padding: 40px;
+        margin-top: 80px;
+        margin-bottom: 32px;
     }
 }
 @media only screen and (min-width: 1280px) {
     .footer-box{
         position: relative;
+        margin-top: 100px;
     }
 }
 
