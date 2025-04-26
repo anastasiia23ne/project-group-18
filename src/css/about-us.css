@@ -207,7 +207,6 @@
 }
 .images-clock-about {
     display: block;
-    width: 100%;
     max-width: 335px;
     height: auto;
     object-fit: contain;
