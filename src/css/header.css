@@ -91,7 +91,7 @@
   .head-item::after {
     content: '';
     position: absolute;
-    bottom: 3px;
+    bottom: 14px;
     left: 50%;
 
     width: 8px;
