@@ -107,7 +107,7 @@
      }
 
      .catalog-item{
-          width: calc( (100% - 16px) / 2);
+          width: calc((100% - 16px) / 2);
           
      }
 
@@ -153,7 +153,7 @@
      }
      
      .catalog-item{
-          width: calc( (100% - 46px) / 3);
+          width: calc((100% - 46px) / 3);
      }
 
 }
