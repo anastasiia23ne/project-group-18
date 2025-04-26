@@ -154,6 +154,18 @@ font-family: "Gilroy", sans-serif;
     border-radius: 20px;
     width: 132px;
     height: 132px;
+    cursor: pointer;
+    }
+    .sale-list .sale-item {
+        transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+        transform: perspective(1500px) translateZ(0) rotateX(0deg) rotateY(0deg) scale(1);
+        will-change: transform;
+      
+    }
+    .sale-list .sale-item:hover {
+        transform: perspective(1500px) translateZ(60px) rotateX(8deg) rotateY(15deg) scale(1.1);
+        box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3);
+      
     }
     .sale-main-img {
     border-radius: 50px;
