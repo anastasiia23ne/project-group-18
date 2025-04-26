@@ -101,7 +101,7 @@
       .reviews-item:nth-child(-n+3) {
             display: block;
       }
-
+/* add comment */
       .reviews-list {
             flex-direction: row;
             gap: 20px;
