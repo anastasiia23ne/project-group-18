@@ -1,5 +1,5 @@
 .section-contact-us {
-  margin-top: 60px;
+  padding-top: 60px;
   color: #0c0c0c;
 }
 .container-name {
@@ -72,6 +72,19 @@
 .comment-textarea::placeholder {
   color: rgba(12, 12, 12, 0.5);
 }
+
+.label-form {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 
 .btn-form {
   border-radius: 16px;
