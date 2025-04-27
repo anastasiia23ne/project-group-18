@@ -1,0 +1,78 @@
+<section id="contact-us" class="section-contact-us">
+  <div class="container">
+    <h2 class="container-name">Contact Us</h2>
+    <div class="container-input">
+      <div class="container-form">
+        <p class="container-form-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="contact-us-form">
+          <input
+            class="input-form"
+            type="text"
+            name="user_name"
+            placeholder="Name"
+            required
+          />
+          <input
+            class="input-form"
+            type="email"
+            name="user_email"
+            placeholder="Email"
+            pattern
+            email="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+          <input
+            class="input-form"
+            type="tel"
+            name="user_phone"
+            placeholder="+380"
+            pattern
+            phone="^+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+            required
+          />
+          <textarea
+            class="comment-textarea"
+            name="user_comment"
+            placeholder="Comment"
+           
+          ></textarea>
+          <button class="btn-form" type="submit">Send</button>
+        </form>
+    </div>
+        <div class="contact-image">
+          <picture>
+            <source
+              srcset="
+                /img/contact-us/contact-us-d.png     1x,
+                /img/contact-us/contact-us-d@2x.png 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+            srcset="
+            /img/contact-us/contact-us-t.png     1x,
+            /img/contact-us/contact-us-t@2x.png 2x
+            "
+            media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                /img/contact-us/contact-us-m.png     1x,
+                /img/contact-us/contact-us-m@2x.png 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img
+              class="contact-image-watch"
+              src="/img/contact-us/contact-us-d.png"
+              alt="Premium watch on dark stone background"
+              />
+          </picture>
+        </div>
+      
+    </div>
+  </div>
+</section>

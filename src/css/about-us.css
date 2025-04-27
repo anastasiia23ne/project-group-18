@@ -32,9 +32,7 @@
 
 @media (min-width: 1280px) {
     .about-us-wrapper {
-            margin: 0 auto;
             flex-direction: row;
-            justify-content: space-between;
             /*align-items: flex-start;
             gap: 40px;*/
             /*box-sizing: border-box;*/
@@ -55,6 +53,7 @@
     .about-us-first-div {
         width: 704px;
         height: 512px;
+        border-radius: 50px;
         padding: 80px 60px;
     }
 }
@@ -63,7 +62,6 @@
     .about-us-first-div {
         width: 580px;
         height: 532px;
-        /*box-sizing: border-box;*/
     }
 }
 @media screen and (min-width: 1280px) {
