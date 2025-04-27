@@ -1,5 +1,8 @@
 .section-contact-us {
+
   padding-top: 60px;
+
+ 
   color: #0c0c0c;
 }
 .container-name {
@@ -111,7 +114,7 @@
 
 @media screen and (min-width: 768px) {
   .section-contact-us {
-    margin-top: 80px;
+    padding-top: 80px;
   }
 
   .container-name {
@@ -163,12 +166,12 @@
 
 @media screen and (min-width: 1280px) {
   .section-contact-us {
-    margin-top: 100px;
+    padding-top: 100px;
   }
 
   .container-input {
     display: flex;
-    justify-content: center;
+    
   }
 
   .container-form {
