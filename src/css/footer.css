@@ -1,9 +1,16 @@
+.container {
+    padding-bottom: 20px;
+}
+@media screen and (min-width: 768px){
+    .container {
+        padding-bottom: 32px;
+    }
+}
 @media only screen and (min-width: 1280px) {
     .container {
-        padding: 0 32px;
+        padding: 0 32px 20px 32px;
     }
   }
-
 .footer-box {
     display: flex;
     flex-direction: column;
@@ -12,13 +19,14 @@
     padding: 40px 28px 28px 28px;
     border-radius: 30px;
     margin-top: 60px;
-    margin-bottom: 20px;
 }
 @media screen and (min-width: 768px){
     .footer-box{
         padding: 40px;
         margin-top: 80px;
-        margin-bottom: 32px;
+    }
+    footer{
+        padding-bottom: 32px;
     }
 }
 @media only screen and (min-width: 1280px) {
@@ -49,6 +57,7 @@
         display: flex;
         justify-content: space-between;
         align-items: start;
+        flex-wrap: wrap;
     }
 }
 @media only screen and (min-width: 1280px) {
@@ -78,6 +87,7 @@
     opacity: 0.8;
     width: 18px;
     height: 18px;
+    transition: opacity 0.3s ease;
 }
 .social-link:hover, .social-link:focus{
     .icon{
@@ -102,8 +112,6 @@
     text-transform: uppercase;
     text-align: center;
     color: #fbfbfb;
-}
-.tel-box{
     border: 1px solid rgba(251, 251, 251, 0.2);
     border-radius: 16px;
     padding: 14px 20px;
@@ -114,14 +122,13 @@
     .tel{
         font-size: 14px;
         line-height: 1.29;
-    }
-    .tel-box{
+        margin-top: 0;
         padding: 15px;
     }
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1280px){
     .tel-box{
-        margin-top: 0;
+        order: 3;
     }
 }
 
@@ -151,11 +158,8 @@
 }
 @media only screen and (min-width: 1280px) {
     .footer-text{
-        position: absolute;
-        top: 40px;
-        left: 50%; 
-        transform: translateX(-50%);
         margin: 0;
+        order: 2;
     }
 }
 
@@ -188,6 +192,7 @@
     line-height: 1.33;
     color: #fbfbfb;
     font-style: normal;
+    display: block;
 }
 .nav-address-box{
     display: flex;
