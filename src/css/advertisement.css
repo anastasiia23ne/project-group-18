@@ -1,3 +1,20 @@
+.choose-section .container {
+    padding-top: 60px;
+}
+
+@media only screen and (min-width: 768px) {
+    .choose-section .container {
+        padding-top: 80px;
+    }
+}
+
+        @media only screen and (min-width: 1280px) {
+            .choose-section .container {
+                padding-top: 100px;
+            }
+        }
+
+
 .choose {
     width: 100%;
     background-color: #0c0c0c;
@@ -7,7 +24,6 @@
     background-position: center;
     background-size: cover;
     border-radius: 30px;
-    padding-top: 60px;
 }
 
 @media screen and (min-resolution: 2x) {
@@ -69,7 +85,6 @@
 @media only screen and (min-width: 768px) {
     .choose {
     padding: 80px 64px;
-    margin-top: 80px;
     background-image: url(/img/advertisement/advertisement-bcgr-tab.png);
     }
 
@@ -92,7 +107,6 @@
 @media only screen and (min-width: 1280px) {
     .choose {
         padding: 83px 80px;
-        margin-top: 100px;
         display: flex;
         align-items: baseline;
         justify-content: center;

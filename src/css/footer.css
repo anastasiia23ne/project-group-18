@@ -1,13 +1,13 @@
-.container {
+.footer-container {
     padding-bottom: 20px;
 }
 @media screen and (min-width: 768px){
-    .container {
+    .footer-container {
         padding-bottom: 32px;
     }
 }
 @media only screen and (min-width: 1280px) {
-    .container {
+    .footer-container {
         padding: 0 32px 20px 32px;
     }
   }
