@@ -1,246 +1,115 @@
 .review {
-      padding-top: 60px;
-      padding-bottom: 0;
+    padding-top: 60px;
+    padding-bottom: 0;
 }
+
 .reviews-title {
-      font-weight: 600;
-      font-size: 32px;
-      line-height: 1;
-      letter-spacing: -0.02em;
-      color: #0C0C0C;
-      margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 24px;
 }
+
 .reviews-list {
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
+
 .reviews-item {
-      border-radius: 30px;
-      background-color: #F3F3F3;
-      padding: 32px 36px;
-      width: 335px;
-      height: 262px;
+    border-radius: 30px;
+    background-color: #f3f3f3;
+    padding: 32px 36px;
+    width: 100%;
+    height: auto;
 }
+
 .review-image {
-      margin: 0 auto;
-      margin-bottom: 24px;
+    margin: 0 auto;
+    margin-bottom: 24px;
 }
+
 .reviews-item:nth-child(n+2) {
-      display: none;
+    display: none;
 }
+
 .review-name {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 1.25;
-      letter-spacing: -0.02em;
-      text-align: center;
-      margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 8px;
 }
+
 .review-item-text {
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 1.28571;
-      letter-spacing: -0.02em;
-      text-align: center;
-      color: rgba(12, 12, 12, 0.4);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(12, 12, 12, 0.4);
 }
+
 @media screen and (min-width: 768px) {
-      .review {
-            padding-top: 80px;
-      }
-      .reviews-title {
-            font-weight: 600;
-            font-size: 48px;
-            margin-bottom: 40px;
-      }
-      .reviews-list {
-            gap: 16px;
-      }
-      .reviews-item {
-            flex-basis: calc((100% - 16px) / 2);
-            width: 344px;
-            height: 272px;
-      }
-      .reviews-item:nth-child(-n+2) {
-            display: block;
-      }
-      .review-name {
-            font-size: 18px;
-            line-height: 0.92;
-      }
-      .review-item-text {
-            font-size: 16px;
-            line-height: 1.25;
-            text-align: center;
-      }
+    .review {
+        padding-top: 80px;
+    }
+
+    .reviews-title {
+        font-weight: 600;
+        font-size: 48px;
+        margin-bottom: 40px;
+    }
+
+    .reviews-list {
+        gap: 16px;
+    }
+
+    .reviews-item {
+        flex-basis: calc((100% - 16px) / 2);
+        width: 344px;
+        height: 272px;
+    }
+
+    .reviews-item:nth-child(-n+2) {
+        display: block;
+    }
+
+    .review-name {
+        font-size: 18px;
+        line-height: 0.92;
+    }
+
+    .review-item-text {
+        font-size: 16px;
+        line-height: 1.25;
+        text-align: center;
+    }
 }
+
 @media screen and (min-width: 1280px) {
-      .review {
-            padding-top: 100px;
-      }
-      .reviews-item:nth-child(-n+3) {
-            display: block;
-      }
-/* add comment */
-      .reviews-list {
-            flex-direction: row;
-            gap: 20px;
-      }
-      .reviews-item {
-            flex-basis: calc((100% - 20px) / 3);
-            width: 370px;
-            height: 272px;
-      }
-}
-12:40
-то код тобі на всякий скинув (edited) 
+    .review {
+        padding-top: 100px;
+    }
 
+    .reviews-item:nth-child(-n+3) {
+        display: block;
+    }
 
-Anastasiia
-  12:40 AM
-Добре
+    .reviews-list {
+        flex-direction: row;
+        gap: 20px;
+    }
 
-
-Ярослав Кузьмин
-  12:40 AM
-я запушив на гіт
-12:40
-повинно бути добре
-
-
-Anastasiia
-  12:41 AM
-Прийняти пул реквест?
-
-
-Ярослав Кузьмин
-  12:41 AM
-так
-12:41
-зараз хедер там добавлений але моєї секції там нема:rolling_on_the_floor_laughing:
-
-
-Anastasiia
-  12:41 AM
-Є
-12:41
-Пулреквест
-12:42
-Твоя секція без css
-
-
-Ярослав Кузьмин
-  12:42 AM
-:sob::sob::sob::sob::sob:
-12:43
-Я зараз піду в вікно вийду
-12:43
-Це капець
-
-
-Anastasiia
-  12:43 AM
-я тобі щас скину css
-12:44
-.review {
-      padding-top: 60px;
-      padding-bottom: 0;
-}
-.reviews-title {
-      font-weight: 600;
-      font-size: 32px;
-      line-height: 1;
-      letter-spacing: -0.02em;
-      color: #0c0c0c;
-      margin-bottom: 24px;
-}
-.reviews-list {
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-}
-.reviews-item {
-      border-radius: 30px;
-      background-color: #f3f3f3;
-      padding: 32px 36px;
-      width: 335px;
-      height: 262px;
-}
-.review-image {
-      margin: 0 auto;
-      margin-bottom: 24px;
-}
-.reviews-item:nth-child(n+2) {
-      display: none;
-}
-.review-name {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 1.25;
-      letter-spacing: -0.02em;
-      text-align: center;
-      margin-bottom: 8px;
-}
-.review-item-text {
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 1.28571;
-      letter-spacing: -0.02em;
-      text-align: center;
-      color: rgba(12, 12, 12, 0.4);
-}
-@media screen and (min-width: 768px) {
-      .review {
-            padding-top: 80px;
-      }
-      .reviews-title {
-            font-weight: 600;
-            font-size: 48px;
-            margin-bottom: 40px;
-      }
-      .reviews-list {
-            gap: 16px;
-      }
-      .reviews-item {
-            flex-basis: calc((100% - 16px) / 2);
-            width: 344px;
-            height: 272px;
-      }
-      .reviews-item:nth-child(-n+2) {
-            display: block;
-      }
-      .review-name {
-            font-size: 18px;
-            line-height: 0.92;
-      }
-      .review-item-text {
-            font-size: 16px;
-            line-height: 1.25;
-            text-align: center;
-      }
-}
-@media screen and (min-width: 1280px) {
-      .review {
-            padding-top: 100px;
-      }
-      .reviews-item:nth-child(-n+3) {
-            display: block;
-      }
-/* add comment */
-      .reviews-list {
-            flex-direction: row;
-            gap: 20px;
-      }
-      .reviews-item {
-            flex-basis: calc((100% - 20px) / 3);
-            width: 370px;
-            height: 272px;
-      }
+    .reviews-item {
+        flex-basis: calc((100% - 20px) / 3);
+        width: 370px;
+        height: 272px;
+    }
 }
