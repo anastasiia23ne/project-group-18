@@ -1,14 +1,17 @@
-.container {
+.footer-container {
     padding-bottom: 20px;
+    padding-top: 60px;
 }
 @media screen and (min-width: 768px){
-    .container {
+    .footer-container {
+        padding-top: 80px;
         padding-bottom: 32px;
     }
 }
 @media only screen and (min-width: 1280px) {
-    .container {
+    .footer-container {
         padding: 0 32px 20px 32px;
+        padding-top: 100px;
     }
   }
 .footer-box {
@@ -18,7 +21,6 @@
     background-color: #0C0C0C;
     padding: 40px 28px 28px 28px;
     border-radius: 30px;
-    margin-top: 60px;
 }
 @media screen and (min-width: 768px){
     .footer-box{
