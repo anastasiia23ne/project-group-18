@@ -4,9 +4,7 @@
 }
 @media screen and (min-width: 768px){
     .footer-container {
-
         padding-top: 80px;
-
 
         padding-bottom: 32px;
     }
@@ -28,7 +26,6 @@
 @media screen and (min-width: 768px){
     .footer-box{
         padding: 40px;
-        margin-top: 80px;
     }
     footer{
         padding-bottom: 32px;
@@ -37,7 +34,6 @@
 @media only screen and (min-width: 1280px) {
     .footer-box{
         position: relative;
-        margin-top: 100px;
     }
 }
 
