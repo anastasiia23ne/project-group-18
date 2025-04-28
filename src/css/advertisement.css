@@ -1,4 +1,21 @@
-.advertisement {
+.choose-section .container {
+    padding-top: 60px;
+}
+
+@media only screen and (min-width: 768px) {
+    .choose-section .container {
+        padding-top: 80px;
+    }
+}
+
+        @media only screen and (min-width: 1280px) {
+            .choose-section .container {
+                padding-top: 100px;
+            }
+        }
+
+
+.choose {
     width: 100%;
     background-color: #0c0c0c;
     background-image: url(/img/advertisement/advertisement-bcgr-mob.png);
@@ -7,11 +24,10 @@
     background-position: center;
     background-size: cover;
     border-radius: 30px;
-    margin-top: 60px;
 }
 
 @media screen and (min-resolution: 2x) {
-    .advertisement {
+    .choose {
     background-image: url(/img/advertisement/advertisement-bcgr-mob-2x.png);
     }
 }
@@ -29,7 +45,7 @@
     overflow: hidden;
 }
 
-.advertisement-text {
+.choose-text {
     font-weight: 600;
     font-size: 32px;
     line-height: 1;
@@ -37,11 +53,11 @@
     color: #fbfbfb;
 }
 
-.advertisement-text-change {
+.choose-text-change {
     color: rgba(251, 251, 251, 0.5);
 }
 
-.advertisement-btn {
+.choose-btn {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.29;
@@ -60,39 +76,37 @@
             color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.advertisement-btn:hover, 
-.advertisement-btn:focus {
+.choose-btn:hover, 
+.choose-btn:focus {
     background-color: #fbfbfb;
     color: #0c0c0c;
 }
 
 @media only screen and (min-width: 768px) {
-    .advertisement {
+    .choose {
     padding: 80px 64px;
-    margin-top: 80px;
     background-image: url(/img/advertisement/advertisement-bcgr-tab.png);
     }
 
     @media screen and (min-resolution: 2x) {
-        .advertisement {
+        .choose {
             background-image: url(/img/advertisement/advertisement-bcgr-tab-2x.png);
         }
     }
 
-    .advertisement-text {
+    .choose-text {
         font-size: 48px;
         line-height: 0.92;
     }
 
-    .advertisement-btn {
+    .choose-btn {
         margin-top: 32px;
     }
 }
 
 @media only screen and (min-width: 1280px) {
-    .advertisement {
+    .choose {
         padding: 83px 80px;
-        margin-top: 100px;
         display: flex;
         align-items: baseline;
         justify-content: center;
@@ -100,17 +114,17 @@
     }
 
     @media screen and (min-resolution: 2x) {
-        .advertisement {
+        .choose {
             background-image: url(/img/advertisement/advertisement-bcgr-desk-2x.png);
         }
     }
 
-    .advertisement-text {
+    .choose-text {
         width: 690px;
         margin-right: 140px;
     }
     
-    .advertisement-btn {
+    .choose-btn {
         margin-top: 0;
         padding: 0;
     }
