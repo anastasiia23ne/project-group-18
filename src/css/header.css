@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: space-between;
 
-  padding: 20px 0;
+  padding: 20px 20px;
   /* min-height: 74px; */
 }
 
@@ -59,7 +59,7 @@
 
 @media only screen and (min-width: 768px) {
   .header .container {
-      padding: 26px 0;
+      padding: 26px 32px;
     }
 
   .logo {
@@ -106,7 +106,7 @@
   .head-item::after {
     content: '';
     position: absolute;
-    bottom: 14px;
+    bottom: -14px;
     left: 50%;
 
     width: 8px;
@@ -119,9 +119,9 @@
   }
 
   .head-item:hover::after,
-  .head-item:focus::after {
+  .head-item:focus-within::after {
     opacity: 1;
-    transform: translateY(-50%);
+    transform: translateX(-50%);
   }
 
   .head-soc-list {
