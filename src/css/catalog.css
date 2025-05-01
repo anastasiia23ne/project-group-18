@@ -83,8 +83,7 @@
 }
 
 .catalog-button:hover,
-.catalog-button:focus,
-.catalog-button:active {
+.catalog-button:focus {
     transform: translateY(2px);
     background-color: #1f3cd4;
     box-shadow: 3px 6px 30px rgba(51, 80, 233, 0.2);
